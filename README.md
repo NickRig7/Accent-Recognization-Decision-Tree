@@ -1,4 +1,4 @@
-Accent-Recognization-Decision-Tree
+## Accent Recognition Decision Tree
 
 Data set featuring single English words read by speakers from six different countries for accent detection and recognition.
 
