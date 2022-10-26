@@ -1,0 +1,35 @@
+Decision Tree 
+Tree sort of str having node and in each node their is a particular decision based upon whichh the next step will be dicided start from the root node then 
+we have the decision nodes and then the leaf nodes which are the results or the action we have to take stoping criteria.
+
+Algorithm used and the logic behid the usage:
+
+The C5.0 decision tree algorithm is used to get the prediction of the accent as it chosses the entrpoy and reduces the entropy i.e the randomness or 
+disorder and increases the homogeninty as we have to reduce the entropy whenever we are going to find the split and by spliting the data the entropy 
+must decrease and if the entrpoy is 0 that means the data is homogeneous higher the value of entrpoy hetrogeneuos the data is pruning the desicion tree 
+can countinue to grow indefinetly and chossing a spliting feature and dividing the data into smaller and smaller partion untill each example is
+perfectly classified or the algorithm runs out of feautres to split out but if the tree growns very large then the data will be complex to 
+understand it. i.e it will be overfitted 
+
+The processs of pruning will reduce the size  such that it journalises better so that the size of tree will be smaller enough so that we can easily 
+understand the desicion tree in a better way and the decisions that is going to be taken will be much relevant.
+
+
+Classification rules:  (all features to be nominal/categorical data)
+antecedent : conditions (if else)
+consequent : (task)
+seprate and conquer
+
+1R algorothm: 
+Used for creating classification rules and it is simple method for each feature it divides the data into groups based on the values of 
+the feature, then for each segment the algorothm predicts the majority class so 1 rule is created 
+
+REPPER algorithm:
+Repeated incremented pruning to produce error reduction basically imporving method for 1R, 
+as it reduces the error by pruning the data here we have threee phases:
+
+1.grow phase : the classification rules will be created and will stop when we reach the homogeneous data elements
+
+2.prune phase : and when the entorpy is 0 then we will prune the rules whicheveer the rules are not required they will be waved off or pruned
+
+3.optimised phase
