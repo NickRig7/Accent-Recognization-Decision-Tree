@@ -32,7 +32,7 @@ library(C50)
 
 accent_model=C5.0(accent_train[-1],accent_train$language)
 accent_model
-summary(accent_model)
+summary(accent_model) 
 
 #Evaluate the model
 accent_pred=predict(accent_model,accent_test)
