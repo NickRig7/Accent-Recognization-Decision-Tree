@@ -32,4 +32,4 @@ as it reduces the error by pruning the data here we have threee phases:
 
 2.prune phase : and when the entorpy is 0 then we will prune the rules whicheveer the rules are not required they will be waved off or pruned
 
-3.optimised phase
+3.optimised phase 
